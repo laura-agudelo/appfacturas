@@ -13,7 +13,6 @@ public class producto {
         this.codigo = String.format("P%04d", ++ultimoCodigo);
     }
 
-    // Getters y Setters
     public String getCodigo() {
         return codigo;
     }

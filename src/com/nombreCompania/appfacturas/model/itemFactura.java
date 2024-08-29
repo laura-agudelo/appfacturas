@@ -4,13 +4,11 @@ public class itemFactura {
     private producto producto;
     private int cantidad;
 
-    // Constructor
     public itemFactura(producto producto, int cantidad) {
         this.producto = producto;
         this.cantidad = cantidad;
     }
 
-    // Getters y Setters
     public producto getProducto() {
         return producto;
     }
